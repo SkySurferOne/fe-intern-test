@@ -1,0 +1,37 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* grid */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    width: 100%;
+    margin-bottom: 1000px;
+}
+
+.img-wrap {
+    height: 200px;
+    width: auto;
+    margin-bottom: 1rem;
+}
+
+.img-wrap img {
+    width: auto;
+    height: 100%;
+}
+
+
